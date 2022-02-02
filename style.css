@@ -3,26 +3,75 @@ body{
     
 }
 #actorsection{
-    margin: 0 auto;
+    margin: 3rem auto;
     max-width: 1200px;
 }
 
 
-li, h1{
+li{
    font-family: 'Source Sans Pro','Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(167, 232, 236);
+    color: rgb(195, 227, 231);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.15rem;
     padding:10px;
+    cursor:pointer;
+}
+p{
+font-family: 'Source Sans Pro','Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(249, 254, 255); 
+font-weight: 500;
+font-size: 1.15rem;
+padding:10px;
+margin:0;
 }
 
-h1{
+
+h1, h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 2.2rem;
-    color: rgb(255, 255, 255);
-
+    color: rgb(249, 254, 255); 
+    font-weight: 500;
+    padding:10px;
+    margin:0;
 }
 .actorlist{
     display: grid;
     grid-template-columns:  repeat(auto-fill, 350px) ;
+}
+
+
+#popup {
+    overflow-y: scroll;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(19, 19, 26, 0.856);
+    
+}
+
+#popup article {
+    display: flex;
+    gap: 0px;
+    width: 30vw;
+    margin: 15rem auto;
+    padding: 40px 30px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: rgb(195, 227, 231);
+    background-color: rgb(117, 174, 184);
+    flex-direction: column;
+}
+
+#luk{
+    position: fixed;
+    margin-right: -16px;
+    align-self: flex-end;
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: rgb(249, 254, 255);
+    cursor: pointer;
+    margin-top: -34px;
 }
