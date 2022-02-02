@@ -10,15 +10,16 @@ body{
 
 li, h1{
    font-family: 'Source Sans Pro','Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(175, 236, 247);
+    color: rgb(167, 232, 236);
     font-weight: 500;
+    font-size: 1rem;
     padding:10px;
 }
 
 h1{
     font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
-    color: rgb(230, 251, 255);
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
 
 }
 .actorlist{
