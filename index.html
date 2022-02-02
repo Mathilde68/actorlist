@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="da">
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>Actorlist</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
-<style>
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+<<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@400;600&display=swap"
+  rel="stylesheet" />
+<style></style>
 <script src="script.js"></script>
 
 <body>
+  <main>
+  
+   
+    <section id="actorsection">
+    
+      
+      <h1>List of actors</h1>
+      <p>Filter by movie:</p>
 
-  <section id="actorsection">
-    <h1>List of actors</h1>
-    <ul class="actorlist"></ul>
-  </section>
+        <nav  id="filters">
+        
+            <img src="img/goodfellas.jpg" data-movie="Goodfellas" alt="" id="button" />
+        
+        
+            <img src="img/pulpfiction.jpg" data-movie="Pulp Fiction" alt="" id="button" />
+        
+        
+            <img src="img/fightclub.jpg" data-movie="Fight Club" alt="" id="button" />
+        
+        
+            <img src="img/inception.jpg" data-movie="Inception" alt="" id="button" />
+        
+        <div  data-movie="all" class="valgt" id="button">
+            <h2>ALL</p>
+            </div>
+        </nav>
+   
 
+      <ul class="actorlist"></ul>
+    </section>
 
-  <section id="popup">
-
-    <article id="thisactor">
-      <div id="luk"> &#10005; </div>
+    <section id="popup">
+      <article id="thisactor">
+        <div id="luk">&#10005;</div>
         <h2></h2>
         <p></p>
-    </article>
-
-</section>
-
-
+      </article>
+    </section>
+  </main>
   <template class="template">
     <li></li>
   </template>
-
-
-
 </body>
 
 </html>
