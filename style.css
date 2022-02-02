@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(11, 22, 34);
+    
+}
+#actorsection{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+li, h1{
+   font-family: 'Source Sans Pro','Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(175, 236, 247);
+    font-weight: 500;
+    padding:10px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: rgb(230, 251, 255);
+
+}
+.actorlist{
+    display: grid;
+    grid-template-columns:  repeat(auto-fill, 350px) ;
+}
